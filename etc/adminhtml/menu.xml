@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Dapl. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="dapl::base" title="Dapl" module="Dapl_Searchtagorder" sortOrder="90" resource="Dapl_Searchtagorder::sample"/>
+        <add id="dapl_searchtagorder::searchtagorder" title="Items" module="Dapl_Searchtagorder" sortOrder="10" parent="dapl::base" action="dapl_searchtagorder/items/" resource="Dapl_Searchtagorder::items"/>
+    </menu>
+</config>
